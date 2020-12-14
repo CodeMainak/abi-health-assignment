@@ -1,0 +1,33 @@
+To start::
+Install node_modules(USE:: "npm install") ans run the application by "npm start"
+This is a Patient Portal website to successfully register and keep track of the patient records:
+It has two pages.
+• Login /Logout
+• Dashboard
+
+1. Login/Logout:
+• User can login to the dashboard using correct username and password (Username: test and Password: 1234).
+• If username and password is incorrect, please show error text like “Invalid Username /
+Password”.
+• For correct username and password user will successfully login and redirect to the
+dashboard
+• Once click ‘Logout’ – Clear browser cookies/ Session from the browser and redirect to the
+login page.
+2. Dashboard: Shown after login
+a. Add Patient: Dashboard contain the ‘Add Patient’ button through that user will be able
+to add the student.
+i. Once user click the ‘Add Patient’ button popup will come that contain the below
+listed fields,
+ii. Once user clicked save, it will create the patient and show in the table.
+b. Edit / Delete Patient:
+i. Edit Patient: User will be able to edit the patient name. Once user click Edit
+button popup will come with ‘Update’ And ‘Cancel’ Button, with prefilled
+patient details, here user will able to edit the patient detail.
+ii. Delete Patient: Once click the delete button ‘Delete Confirmation” popup
+should come with message “Are you sure, you want delete ‘Patient Name’ with
+‘Yes’ and ‘No’ button .Once user click ‘Yes’ remove patient detail form the Array
+and refresh the patient table.
+iii. Delete patient: Add delete checkbox – user will select the checkbox and will able
+to delete multiple patient at once.
+
+c. Search Patient: User will be able to search patient (which already added).
